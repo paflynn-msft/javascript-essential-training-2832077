@@ -27,3 +27,9 @@ console.log("The length of the left strap is:", backpack.strapLength.left);
 
 var query = "pocketNum";
 console.log("The pocketNum value:", backpack[query]);
+
+/**
+ * practice assignment: create an object
+ * give each object an identifiable name
+ * create properties to describe the objects and set their values
+ */
