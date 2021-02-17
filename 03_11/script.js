@@ -39,3 +39,13 @@ const everydayPack = new Backpack(
   26,
   false
 );
+
+const llbeanBag = new Backpack(
+  "llBean Backpack",
+  15,
+  "blue",
+  10,
+  20,
+  20,
+  false
+);

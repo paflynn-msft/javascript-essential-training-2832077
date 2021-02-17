@@ -19,6 +19,9 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newVolume: function (newVolume) {
+    this.volume = newVolume;
+  },
 };
 
 console.log("The backpack object:", backpack);
@@ -29,3 +32,9 @@ console.log("Left before:", backpack.strapLength.left);
 backpack.newStrapLength(10, 15);
 
 console.log("Left after:", backpack.strapLength.left);
+
+console.log("Volume Before", backpack.volume);
+
+backpack.newVolume(45);
+
+console.log("Volume after", backpack.volume);
